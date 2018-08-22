@@ -1,0 +1,286 @@
+/* Reset */
+    /**
+    * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+    * Richard Clark (http://richclarkdesign.com)
+    * http://cssreset.com
+    */
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+    body {line-height:1}
+    article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+    nav ul,ul,ol{list-style:none}
+    blockquote, q {quotes:none}
+    blockquote:before, blockquote:after,
+    q:before, q:after {content:'';content:none}
+    a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;volor: #000;text-decoration:none}
+    /* change colours to suit your needs */
+    ins {background-color:#ff9;color:#000;text-decoration:none}
+    /* change colours to suit your needs */
+    mark {background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+    del {text-decoration: line-through}
+    abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help}
+    table {border-collapse:collapse;border-spacing:0}
+    /* change border colour to suit your needs */
+    hr {display:block;height:1px;border:0;border-top:1px solid #cccccc;margin:1em 0;padding:0}
+    input, select {vertical-align:middle}
+	body{margin:0;padding:0;font-family:OptimaRoman,Arial,Segoe,'Segoe UI',Candara,Calibri,sans-serif;font-size:12px;line-height:18px;color:#000;background-color:#ffffff;}
+	.clr{clear:both}
+/* End Reset */
+/*	@Author: Sokha's Developer
+	@Date: 2012-06-18
+*/
+/* Global style */
+body iframe{height:0 !important;}
+.no-bd{border:none !important}
+.no-bd-bt{border-bottom:none !important}
+.no-bg{background:none !important}
+.no-pr{padding-right:0 !important}
+.no-bd-bl{border-left:none !important}
+.no-bd-br{border-right:none !important}
+.box-required{border-color:#C80000 !important}
+.outline-required{outline: 1px solid #C80000 !important}
+#wrapper{position:relative;height:auto}
+#wrapper,.border,.footer-bottom,#search-hotel-section,#legal,.promotion{width:1100px;margin:0 auto}
+/* header */
+#header{width:100%;height:120px}
+#header .logo{position:absolute;width:92px;height:104px;top:40px;left:0;z-index:100}
+/*Footer*/
+#footer{width:100%;height:auto;position:fixed;bottom:0}
+.footer-contain{height:auto;margin:0 auto;background:url(../img/bg_transparent2.png) 0 0 repeat;box-shadow:0px 0px 2px #ccc;/*moz-box-shadow:0px 0px 2px #ccc;-webkit-box-shadow:0px 0px 2px #ccc*/}
+.footer-contain .border{padding:0;margin:0 auto;}
+.footer-contain a{color:#000}
+.footer-contain a:hover{color:#555}
+/* Search hotel */
+#search-panel{position:relative;margin:auto}
+#search-panel .bg-search-panel{height:auto}
+#search-panel .bg-search-panel table{margin:0 auto;overflow:hidden}
+#search-panel .bg-search-panel table td{float:left;display:inline;margin:0;padding:8px 15px 4px 0}
+#search-panel .bg-search-panel table td label{float:left;margin-top:4px;}
+#search-panel .bg-search-panel table td img{vertical-align:middle}
+#search-panel .bg-search-panel table td.last-child{padding-right:0}
+.date-picker{width:96px;height:20px;padding:2px 3px 0;/*background:url(../img/bg-datepicker.png) no-repeat 0 0;*/border:0;text-align:center;}
+.cbo-adult{width:54px;height:22px;padding:2px 3px 2px;background:url(../img/bg-cbo-adult.png) no-repeat 0 0;border:0;text-align:center}
+.btn-promo-code{width:105px;height:24px;background:url(../img/button.png) no-repeat 0 -137px}
+.btn-promo-code:hover{background-position:-109px -137px}
+.btn-check-availability{width:153px;height:24px;background:url(../img/button.png) no-repeat 0 -164px}
+.btn-check-availability:hover{background-position:0 -191px}
+.btn-promo-code,.btn-check-availability{overflow:hidden;height:24px;padding:0;border:0;cursor:pointer;text-indent:-500px}
+/* legal */
+#legal {padding:0;/*background:url(../img/000_80.png) repeat;*/text-align:left}
+#legal p{padding:5px 10px;text-align:justify}
+#legal a:link,#legal a:visited {text-decoration:none;font-weight:normal}
+#legal .our-partner{overflow:hidden;/*background:url(../img/bg_verticle1x2.png) center 0 repeat-x;*/width:875px;margin:auto;}
+#legal .our-partner li{float:left;background: url(../img/bg-lst-hr2x17.png) right 6px no-repeat;color:#838182;padding:0px 8px 0 4px}
+#legal .our-partner li a{display:block;padding:5px 5px;font-weight: bold;font-size:12px}
+.footer-bottom{overflow:hidden;}
+#footer .connect-social-network{width:26%;margin:0 auto;padding:10px 15px 0}
+#footer .connect-social-network img{vertical-align:top}
+#footer .connect-social-network .social-icon{overflow:hidden}
+#footer .connect-social-network .social-icon li{float:left;padding:0 10px;opacity:0.5}
+#footer .connect-social-network .social-icon li:hover{opacity:1}
+#footer .copy-right{float:left;padding:12px 15px 0;font-size:11px}
+#footer .footer-menu-right{float:right;margin-top:-44px;padding:16px 15px 0 15px}
+#footer .footer-menu-right ul li{float:left;padding:0 10px;border-left: 1px solid #FFFFFF;border-right: 1px solid #CCCCCC;}
+#footer .footer-menu-right ul li a{font-size:11px}
+/*Promotion at homepage*/
+.promotion{position:relative;height:190px;overflow:hidden}
+.promotion #title{cursor: move;padding:3px 4px;background:url(../img/bg_transparent4.png) repeat center center;}
+a.tp{color:#333333;text-decoration:underline;}
+a.tp:hover{color:#000;text-decoration:none;}
+.slides{position:absolute;right:0;top:0;padding:0 0px 5px 0px;width:385px;background:url(../img/bg_transparent5.png) repeat center center;border:1px solid #eee;z-index:1000}
+.slides_container{display:block;width:100%;height:150px;margin:auto;z-index:10;padding:0 8px;}
+a.prev,a.next{display:none;width:24px;height:24px;bottom:70px;position:absolute;	overflow:hidden;z-index:100 !important;text-indent:-50px;background:url(../img/next_previous2.png) no-repeat 0 0}
+a.next{right:5px;background-position:0px 0}
+a.next:hover{background-position:-48px 0}
+a.prev{left:5px;background-position:0px -24px}
+a.prev:hover{background-position:-48px -24px}
+a.pause,a.play{width:24px;height:24px;bottom:5px;left:165px;display:block;position:absolute;	overflow:hidden;z-index:100;text-indent:-50px;background:url(../img/pause_play.png) no-repeat 0 0}
+a.pause{background-position:0 -24px}
+a.pause:hover{background-position:-24px -24px}
+a.play{background-position:0 0}
+a.play:hover{background-position:-24px 0}
+.description{position:absolute;left:0;bottom:0;height:50px;width:340px;font-family:Cambria, Arial;font-size:10px;text-align:left;color:#000;padding:5px;z-index:110;background:url(../img/bg_transparent.png) repeat}
+a.close_promotion{position:absolute;width:12px;height:12px;top:5px;right:5px;background:url(../img/close.png) no-repeat 0 0;cursor:pointer}
+a.close_promotion:hover{background-position:0 -12px}
+/*Pagination*/
+.pagination {position:absolute;/*margin:26px auto 0;*/bottom:5px;right:5px;z-index:9999}
+.pagination li {float:left;margin:0 1px;list-style:none}
+.pagination li a {display:block;width:12px;height:0;padding-top:12px;background-image:url(../images/pagination.png);background-position:0 0;float:left;overflow:hidden}
+.pagination li.current a {background-position:0 -12px}
+/*btn show/hide promotion block*/
+a.hide-promotion{display:none;position:absolute;width:48px;height:12px;right:-1px;top:-22px;cursor: pointer;background:url(../img/bg_hide_promote.png) 0 0;	text-indent:100px;overflow:hidden}
+a.hide-promotion:hover{background-position:0 12px}
+/* Promotion Code */
+#promo-fields{display:none;overflow:hidden;position:absolute;padding:10px 5px;top:-90px;background:url(../img/bg_transparent.png) repeat scroll center center transparent;border-left:1px solid #FFFFFF;   border-right:1px solid #FFFFFF;border-top:1px solid #FFFFFF;z-index:10000}
+.txt-code{color: #827B6F;font-size: 11px;margin:2px 0px;width: 86px;height:13px}
+#promo-fields label{display:none}
+#promo-fields div.field{clear:both;float:left}
+.btn-code{float:left;height:14px}
+/* Tooltip */
+#tooltip {position:absolute;width:60px;padding:2px 0;background:url(../img/bg_transparent2.png) 0 0 repeat;text-align:center;color:#000;font-size:12px;font-weight:bold;z-index:1100}
+
+#nav-top {
+    background: url("../img/bg_transparent2.png") repeat;
+    height: 36px;
+	position:absolute;
+	z-index:100;
+	width:100%;
+}
+.bg-nav-top .menu-left {
+    float: left;
+    width: 50%;
+}
+.bg-nav-top .menu-left {
+    float: left;
+    width: 50%;
+	margin-top:1px;
+}
+#nav-top .bg-nav-top {
+    
+    height: 34px;
+    position: relative;
+	width:1100px;
+	z-index:100;
+	margin:0px auto;
+}
+.bg-nav-top .menu-right {
+    float: right;
+	margin-top:2px;
+}
+.bg-nav-top .menu-right ul li {
+    float: left;
+    margin: 8px 0 0;
+    padding: 0 5px;
+}
+.bg-nav-top .menu-right ul li a{
+    color:#000000;
+}
+.bg-nav-top .menu-right ul li a:hover{color:#555}
+.pro-detail {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 10px 10px 10px 10px;
+    color: #636363;
+    padding:10px;
+    position: absolute;
+    width: 60%;
+    z-index: 1000;
+}
+#popup_overlay {
+    background: url("../img/bg-2x2.png") repeat scroll 0 0 transparent;
+	left: 0;
+    position: fixed;
+    top: 0;
+	
+    z-index: 99999;
+}
+.pro-detail .close {
+    background: url("../img/close3D.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 38px;
+    overflow: hidden;
+    position: absolute;
+    right: -17px;
+    text-indent: -500px;
+    top: -17px;
+	z-index:1000000;
+    width: 38px;
+}
+
+/* jQuery Countdown styles 1.5.11. */
+#countdown {
+	
+	background:url(../img/bg_transparent3.png);
+	border:0px solid #FFF;
+	font-size:22px;
+	color:#fff;
+	width:235px;
+	height:160px;
+	padding:35px 15px 0px 25px;
+	
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	background-color: #ccc;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 32.5%;
+}
+.countdown_show4 .countdown_section {
+	width: 24.5%;
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+}
+.countdown_amount {
+	font-size: 200%;
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
+/*popup detail resort location*/
+#popup_overlay2{display:none;position:fixed;top:0;left:0;background:url(../img/bg-2x2.png) repeat 0 0;z-index:9999}
+.pro-detail2{display:none;position:absolute;border:1px solid #eee;width:60%;background:#fff;color:#636363;border-radius:10px;-moz-border-radius:10px;;-webkit-border-radius:10px;z-index:1000}
+.pro-detail2 .div-tmp2{position:relative;height:440px;margin:10px;background:#F5F5F5;border-radius: 10px;padding:1px}
+.popup-height-auto{height:auto !important}
+.pro-detail2 .close2{overflow:hidden;position:absolute;width:38px;height:38px;top:-17px;right:-17px;background:url(../img/close3D.png) no-repeat 0 0;cursor:pointer;text-indent:-500px}
+
+/* Notification */
+.notification{position:fixed;width:386px;padding:7px 12px 0;bottom:0;display:none;-webkit-transition: all 600ms easing�s Bezier curve;
+  transition:all 600ms easing�s Bezier curve;;z-index:1000;background:#d9edf7;border-color:#bce8f1;color:#3a87ad;border-radius:4px} 
+.pull-right{right:0}
+.notification img{float:left}
+.note4 img{margin-top:13px}
+.note3 img{margin-top:3px}
+.note2 img{margin-top:2px}
+.note1 p{margin-top:10px}
+.notification p{margin-left:63px;margin-bottom:0;font-size:13px;clear:none;padding:0}
+.notification p a{color:#3a87ad;font-weight:bold}
+.note3 p{margin-top:0px}
+.notification .fade.in{overflow:hidden}
+.alert{margin-bottom:10px}
+.note1{bottom:510px}
+.note2{bottom:570px}
+.note3{bottom:655px}
+.note4{bottom:733px}
+.close{color: #444;
+    font-size: 17px;
+    position: absolute;
+    right: 7px;top:7px}

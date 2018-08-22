@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo Booking 1.2.0</title>
+        
+        <!--jQuery-->
+        <script src="booking/resource/jquery/jquery-1.11.3.min.js"></script>
+        <script src="booking/resource/jquery/jquery-migrate-1.2.1.min.js"></script>
+        <script src="booking/resource/jquery/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.5.0/css/font-awesome.min.css" />
+        <!--Booking-->
+        <script src="booking/resource/booking.js"></script>
+		<!--Booking Theme Orange-->
+        <link rel="stylesheet" href="booking/resource/booking-datepicker-theme.css">	
+
+        <link rel="stylesheet" href="booking/resource/booking-form.css">
+		
+       <link rel="stylesheet" href="booking/resource/global.css">
+	  
+    </head>
+    
+    <body>
+       
+            <section>
+                
+                
+                
+                
+                                       
+                <h1>Booking Basic</h1>
+                <div id="basic_booking">
+                    <form id="booking_form" class="form">
+                        <input id="checkin_date" class="input-text input-lg" placeholder="Check-in" type="text" readonly />
+
+                        <input id="checkout_date" class="input-text input-lg" placeholder="Check-out" type="text" readonly />
+
+                        <select id="adult" class="input-select input-lg">
+                            <option value="1">1 adult</option>
+                            <option value="2" selected>2 adults</option>
+                            <option value="3">3 adults</option>
+                            <option value="4">4 adults</option>
+                            <option value="5">5 adults</option>
+                            <option value="6">6 adults</option>
+                            <option value="7">7 adults</option>
+                            <option value="8">8 adults</option>
+                            <option value="9">9 adults</option>
+                        </select>						
+                        <select id="child" class="input-select input-lg">
+                            <option value="0" selected>0 children</option>
+                            <option value="1">1 child</option>
+							<option value="2">2 children</option>
+                            <option value="3">3 children</option>
+                            <option value="4">4 children</option>
+                            <option value="5">5 children</option>
+                            <option value="6">6 children</option>
+                            <option value="7">7 children</option>
+                            <option value="8">8 children</option>
+                            <option value="9">9 children</option>
+                        </select>
+
+                        <select id="room" class="input-select input-lg">
+                            <option value="1" selected>1 room</option>
+                            <option value="2">2 rooms</option>
+                            <option value="3">3 rooms</option>
+                            <option value="4">4 rooms</option>
+                            <option value="5">5 rooms</option>
+                            <option value="6">6 rooms</option>
+                            <option value="7">7 rooms</option>
+                            <option value="8">8 rooms</option>
+                            <option value="9">9 rooms</option>
+                        </select>
+
+                        <input id="accesscode" class="input-text input-lg" placeholder="Promo Code" type="text" />
+
+                        <button id="submit" class="button" type="submit">BOOK NOW</button>
+                    </form>
+                </div>
+            
+                <script>
+                    $(function() {
+                        $('#basic_booking').booking({
+                            adultSelector: '#adult',
+                            childSelector: '#child',
+                            roomSelector: '#room',
+                            submitSelector: '#submit',
+                            propertyId: '430',
+                        });
+                    });
+                </script>
+            </section>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+         
+        </div><!--.container-->
+    </body>
+</html>
